@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoyagerOne | Unlimited Code Solutions</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #121212; color: #e0e0e0; }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-8">
+
+    <!-- Logo Bölümü -->
+    <div class="mb-12 text-center">
+        <img src="rghgohr.jpg" alt="VoyagerOne Logo" class="w-64 mx-auto mb-6">
+        <h1 class="text-5xl font-bold text-white tracking-tight">VoyagerOne</h1>
+        <p class="text-gray-400 mt-2">Unlimited Code Solutions</p>
+    </div>
+
+    <!-- Ana İçerik Grid -->
+    <div class="max-w-4xl w-full grid grid-cols-1 md:grid-cols-2 gap-12">
+        
+        <!-- Özellikler -->
+        <div>
+            <h2 class="text-xl font-semibold text-white mb-4">Neden VoyagerOne?</h2>
+            <ul class="space-y-3 text-gray-400">
+                <li class="flex items-center">✓ Üstün Kod Üretim Kapasitesi</li>
+                <li class="flex items-center">✓ Gelişmiş Hata Ayıklama (Debugging)</li>
+                <li class="flex items-center">✓ Mimari Derinlik ve Analiz</li>
+            </ul>
+            <div class="mt-8 p-4 border border-orange-500/30 bg-orange-500/5 rounded-lg">
+                <h3 class="text-orange-400 font-semibold mb-2">Önemli Not (Sistem Gereksinimi)</h3>
+                <p class="text-sm text-gray-400">VoyagerOne yüksek performanslı bir AI modelidir. En iyi deneyim için 16GB+ RAM önerilir. 8GB ve altı sistemler için ürünün mantık kapasitesi kısıtlı kalabilir ve desteklenmez.</p>
+            </div>
+        </div>
+
+        <!-- Launch & Terminal -->
+        <div>
+            <h2 class="text-xl font-semibold text-white mb-4">Fırlatma Tarihi: 30 Temmuz 2026</h2>
+            <div class="bg-gray-900 border border-gray-700 rounded-xl p-6 font-mono text-sm">
+                <p class="text-green-400 mb-2">$ git clone https://github.com/VoyagerOne</p>
+                <p class="text-gray-500">// VoyagerOne yerel AI mimarisi için hazır olun.</p>
+            </div>
+            
+            <a href="https://github.com/VoyagerOne" class="mt-6 inline-block w-full text-center bg-white text-black font-semibold py-3 rounded-lg hover:bg-gray-200 transition">
+                GitHub'da Takip Et
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>  
